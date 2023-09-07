@@ -3,9 +3,11 @@ from typing import Iterable
 from pysubparser.classes.exceptions import InvalidSubtitleTypeError
 from pysubparser.classes.subtitle import Subtitle
 from pysubparser.writers import srt
+from pysubparser.writers import lrc
 
 WRITERS = {
     "srt": srt.write,
+    "lrc": lrc.write
 }
 
 
