@@ -3,4 +3,6 @@ __all__ = [
     "cleaners",
     "parser",
     "writer",
+    "audacity_label"
+    "util"
 ]
